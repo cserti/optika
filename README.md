@@ -1,0 +1,2 @@
+# optika
+Programok a kurzushoz 
