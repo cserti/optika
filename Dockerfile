@@ -3,6 +3,7 @@ FROM andrewosh/binder-base
 RUN git clone https://github.com/jakevdp/JSAnimation.git /tmp/JSAnimation
 WORKDIR /tmp/JSAnimation
 RUN /home/main/anaconda2/envs/python3/bin/python3 setup.py install
+RUN python3 setup.py install
 RUN python setup.py install
 
 RUN mkdir /home/main/notebooks
