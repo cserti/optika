@@ -1,4 +1,4 @@
-FROM andrewosh/binder-base:latest
+FROM andrewosh/binder-base
 
 RUN git clone https://github.com/jakevdp/JSAnimation.git /tmp/JSAnimation
 WORKDIR /tmp/JSAnimation
