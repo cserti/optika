@@ -2,13 +2,6 @@ FROM andrewosh/binder-base
 USER root
 
 RUN conda install -c conda-forge ipywidgets
-#RUN /home/main/anaconda2/envs/python3/bin/pip install ipywidgets
-#RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension install --py --sys-prefix widgetsnbextension
-#RUN /home/main/anaconda2/envs/python3/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
-
-#RUN /home/main/anaconda2/bin/pip install ipywidgets
-#RUN /home/main/anaconda2/bin/jupyter nbextension install --py --sys-prefix widgetsnbextension
-#RUN /home/main/anaconda2/bin/jupyter nbextension enable --py --sys-prefix widgetsnbextension
 
 USER main
 
